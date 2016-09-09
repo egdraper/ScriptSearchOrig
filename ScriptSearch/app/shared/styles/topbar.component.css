@@ -1,0 +1,7 @@
+div.top-bar{
+    height: 55px;   
+}
+
+div.top-bar:hover{
+    background-color: #998989
+}

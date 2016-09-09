@@ -1,0 +1,30 @@
+<div>
+    <div>
+        <label>Authors Name:</label>
+        <input [(ngModel)]="data.author" type="Text">
+    </div>
+    <div>
+        <label>Published Date:</label>
+        <input [(ngModel)]="data.date" type="Text">
+    </div>
+    <div>
+        <label>Title:</label>
+        <input [(ngModel)]="data.title" type="Text">
+    </div>
+    <div>
+        <label>Quote</label>
+        <textarea [(ngModel)]="data.quote" type="text" style="height: 200px; width: 400px"></textarea>
+    </div>
+
+    <button (click)="onSubmit()">Submit</button>
+
+    <ul>
+        <li *ngFor="let dta of dataList">
+            <hr>
+            <div>{{ dta.author  }}: Author.</div>
+            <div>{{ dta.date }}: Date Published.</div>
+            <div>{{ dta.title }}: Published Title.</div>
+            <div>{{ dta.quote }}: Quote.</div>
+        </li>
+    </ul>
+</div>

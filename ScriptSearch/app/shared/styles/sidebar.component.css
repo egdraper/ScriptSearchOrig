@@ -1,0 +1,51 @@
+div.side-bar-button {    
+    background-color: black;
+    height: 25px;
+    color: #CCCCCC;
+    margin-bottom: 5px;
+    font-size: 13px;    
+    padding-left: 10px;   
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+div.side-bar-button.active {
+    background-color: lightgray;
+    color: black;
+    margin-left: 5px
+}
+
+div.side-bar-button.active:hover {
+    background-color: lightgray;
+    color: black;
+    margin-left: 5px
+}
+
+div.side-bar-button.disabled {
+    background-color: #333333;
+    color: grey;
+}
+
+div.side-bar-button.disabled:hover{
+    background-color: #333333;
+    color: grey;
+    margin-left: 0px;
+    cursor: text;
+}
+
+div.side-bar .button-container{
+    padding: 10px;
+}
+
+div.side-bar {
+    width: 250px;
+    height: 100%;}
+
+div.side-bar-button:hover { 
+    background-color: darkslategrey;
+    color: white;
+    margin-left: 5px;
+}
